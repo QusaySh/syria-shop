@@ -1,0 +1,24 @@
+.card-cat{
+    margin-bottom: 7px;
+}
+.cat-main{
+    background-color: #28264b;
+    color: #fff;
+    padding: 5px 10px;
+}
+.card-cat .cat-name{
+    font-size: 20px;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.cat-notMain{
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 6px 1px #999;
+}
+
+.cat-notMain ul li{
+    margin: 0 10px 10px 10px;
+    list-style-type: decimal;
+}

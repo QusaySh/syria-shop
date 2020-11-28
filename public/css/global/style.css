@@ -1,0 +1,245 @@
+html {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 280px;
+}
+
+*{
+    font-family: 'Tajawal', sans-serif;
+}
+
+nav *{
+    font-size: 1rem !important;
+}
+
+nav i{
+    font-size: 1.5rem !important;
+    cursor: pointer;
+}
+
+.fixed-action-btn ul{
+    bottom: 35px;
+}
+
+.mycolor{
+    background-color: #302b63;
+}
+
+body{
+    background-color: #F1F1F1;
+}
+
+.brand-logo{
+    font-size: 1.9rem !important;
+}
+
+nav{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    z-index: 999;
+}
+nav ul a li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+nav li a img{
+    vertical-align: middle;
+    width: 35px;
+}
+
+.container-tags-search{
+    position: absolute;
+    height: 200px;
+    right: 50%;
+    margin-right: -90px;
+    z-index: 9;
+    top: 35px;
+    overflow-y: scroll;
+    display: none;
+}
+
+.sidenav .user-view .background{
+    right: auto;
+    left: 0;
+    top: -123px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #302b63;
+    -webkit-box-shadow: 0 1px 0 0 #302b63;
+    box-shadow: 0 1px 0 0 #302b63;
+}
+
+.input-field .prefix.active{
+    color: #302b63;
+}
+
+.container-signin{
+    margin-top: 60px;
+}
+
+.link-dropdown{
+    position: relative;
+}
+
+.dropdown,
+.dropdown-link-drop{
+    min-width: 200px;
+    right: 0;
+    z-index: 9999;
+    background-color: #fafafa;
+    display: none;
+}
+.dropdown-link-drop.row{
+    margin-bottom: 0 !important;
+}
+.dropdown{
+    position: absolute;
+}
+
+.dropdown li{
+    float: none;
+}
+
+.dropdown li a{
+    color: #000;
+}
+
+.icon-eye{
+    cursor: pointer;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.margin-10{
+    margin: 10px;
+}
+.margin-20{
+    margin: 20px;
+}
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.break{
+    word-break: break-word;
+}
+
+.clear{
+    clear: both;
+}
+
+.over-flow-hidden{
+    overflow: hidden;
+}
+
+.title-default{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-indent: 20px;
+}
+
+.middle{
+    -webkit-vertical-align: middle;
+    -moz-vertical-align: middle;
+    vertical-align: middle;
+}
+
+.container-search{
+    padding: 5px;
+    position: relative;
+    top: -49px;
+    z-index: 1;
+}
+
+.container-search form{
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-search input[type="search"]{
+    height: 37px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+.container-search input[type="search"]:focus,
+.container-search input[type="search"]:active{
+    outline: none;
+    border-bottom: none !important;
+}
+
+.container-search button{
+    position: relative;
+    margin: 0;
+    bottom: -1px;
+    border-radius: 0;
+    box-shadow: none;
+    height: 37px;
+    line-height: 43px;
+}
+
+.container-search .show-search{
+    position: absolute;
+    width: 136px;
+    left: 50%;
+    margin-left: -68px;
+    bottom: -25px;
+    height: 25px;
+    background-color: #302b63;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 25% 100%);
+}
+
+@media(max-width: 600px) {
+    #toast-container {
+       left: 0 !important;
+   }   
+}
+
+table.highlight>tbody>tr:hover{
+    background-color: rgba(181, 176, 176, 0.5);
+}
+.selectTheme{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    left: 0;
+    top: 90px;
+    border-radius: 0 5px 5px 0;
+    z-index: 999;
+}
+.selectTheme i{
+    margin: 7px;
+    font-size: 20px;
+}
+
+.showLastAds{
+    background-color: #027b54;
+    color: #fff;
+    width: 185px;
+    padding: 5px;
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -90px;
+    bottom: 5px;
+    display: none;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

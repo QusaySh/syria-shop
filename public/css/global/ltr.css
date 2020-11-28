@@ -1,0 +1,13 @@
+#container-btn-my-img{
+    left: 10px !important;
+}
+
+.collapsible-header .drop_down{
+    left: auto !important;
+    right: 0 !important;
+}
+
+.container-showAds .collection li{
+    text-align: left !important;
+    direction: ltr !important;
+}

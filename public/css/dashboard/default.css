@@ -1,0 +1,48 @@
+.statistics-card{
+    padding-top: 10px !important;
+    margin-bottom: 8px;
+}
+
+.card-users{
+    background: -webkit-linear-gradient(45deg, #26c6da 0%, #0288d1 100%);
+    background: -moz-linear-gradient(45deg, #26c6da 0%, #0288d1 100%);
+    background: linear-gradient(45deg, #26c6da 0%, #0288d1 100%);
+    box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5)
+}
+.card-items{
+    background: -webkit-linear-gradient(45deg, #f48fb1 0%, #FF5252 100%);
+    background: -moz-linear-gradient(45deg, #f48fb1 0%, #FF5252 100%);
+    background: linear-gradient(45deg, #f48fb1 0%, #FF5252 100%);
+    box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5)
+}
+.card-categories{
+    background: -webkit-linear-gradient(45deg, #1de9b6 0%, #43A047 100%);
+    background: -moz-linear-gradient(45deg, #1de9b6 0%, #43A047 100%);
+    background: linear-gradient(45deg, #1de9b6 0%, #43A047 100%);
+    box-shadow: 0 6px 20px 0 rgba(77, 182, 172, 0.5);
+}
+.card-country{
+    background: -webkit-linear-gradient(45deg, #ffca28 0%, #ff6f00 100%);
+    background: -moz-linear-gradient(45deg, #ffca28 0%, #ff6f00 100%);
+    background: linear-gradient(45deg, #ffca28 0%, #ff6f00 100%);
+    box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+
+.statistics-card i{
+    background-color: rgba(0,0,0, .18);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.statistics-card .title-card{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.first-collection{
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: -moz-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}

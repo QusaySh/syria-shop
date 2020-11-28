@@ -1,0 +1,82 @@
+/* Global */
+body{
+    background-color: #191515 !important; 
+    color: #eee !important;
+}
+nav{
+    background: linear-gradient(to right, #000000, #434343) !important;
+}
+
+.sidenav{
+    background-color: #2e2e2e !important;
+}
+
+.container-search .show-search{
+    background-color: #383838 !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #3e3d3b !important;
+    -webkit-box-shadow: 0 1px 0 0 #3e3d3b !important;
+    box-shadow: 0 1px 0 0 #3e3d3b !important;
+}
+.input-field .prefix.active{
+    color: #3e3d3b !important;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label, input, textarea{
+    color: #eee !important;
+}
+
+.container-search.grey.lighten-3{
+    background-color: #383838 !important;
+}
+
+.dark-button-2, .btn:hover, .btn-large:hover, .btn-small:hover{
+    background-color: #191919;
+}
+
+.dark-button-1.indigo.darken-3, .dark-button-1{
+    background-color: #343435 !important;
+}
+
+.card{
+    background-color: #1f1f1f !important;
+}
+
+.btn-more .btn-floating, .downloadApp.btn-floating{
+    background-color: #000;
+}
+
+.dropdown, .grey.lighten-5, .dropdown-link-drop{
+    background-color: #1b1b1b !important;
+}
+
+.dropdown li a, .sidenav li>a, .sidenav li>a>i, .sidenav li>a>[class^="mdi-"], .sidenav li>a li>a>[class*="mdi-"], .sidenav li>a>i.material-icons{
+    color: #eee;
+}
+
+.modal, .modal .modal-footer{
+    background-color: #1d1d1d !important;
+}
+
+.modal a{
+    color: #fff;
+}
+
+.modal p, .title-default{
+    color: #eee;
+}
+
+.card-cat-categorie.light-blue.darken-4, .card-panel, .collection .collection-item, .tabs, .collapsible-header{
+    background-color: #383838 !important;
+}
+
+.collapsible-header, .collapsible, .collection, .collection.with-header .collection-header{
+    border: 1px solid #666;
+}
+
+.container-showAds .info-ads, .chip, .first-collection{
+    background: #0f0f0f !important;
+}
+

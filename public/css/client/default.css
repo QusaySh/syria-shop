@@ -1,0 +1,16 @@
+.btn-more{
+    position: fixed;
+    bottom: 25px;
+}
+.downloadApp{
+    position: fixed;
+    bottom: 25px;
+    right: 23px;
+}
+.btn-more .btn-floating, .downloadApp.btn-floating{
+    background-color: #24243e;
+}
+
+#country .allCountry .name_country{
+    margin-top: -8px;
+}
